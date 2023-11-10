@@ -26,6 +26,26 @@ public class Car {
                 '}';
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public Color getColor() {
+        return color;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public int getHorses() {
+        return horses;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
     public static class Builder {
         private String name;
         private Color color;
